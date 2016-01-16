@@ -1,0 +1,1 @@
+SELECT Customer.FirstName, Customer.LastName, invoice.Invoiceid, invoice.invoiceDate, invoice.BillingCountry FROM Customer JOIN invoice ON Customer.Customerid = invoice.Customerid Where Country == "Brazil"
